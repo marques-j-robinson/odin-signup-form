@@ -62,3 +62,86 @@ body {
     font-size: 85px;
     margin-top: 20px;
 }
+
+main {
+    width: 60%;
+    background-color: #FAF9F6;
+}
+
+.site-info {
+    margin: 120px 120px 60px 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.site-info p:first-child {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 2px -2px lightgray;
+}
+
+fieldset {
+    border: none;
+    width: 75%;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+
+input {
+    height: 30px;
+    border: solid 1px #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus-visible {
+    box-shadow: 0 6px 2px -2px lightgray;
+}
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-submit {
+    margin-left: 40px;
+}
+
+.btn--submit {
+    background-color: #966F33;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    box-shadow: 0 5px 2px lightgray;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-submit a {
+    text-decoration: none;
+    color: #966F33;
+}
